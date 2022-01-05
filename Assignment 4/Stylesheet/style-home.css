@@ -1,0 +1,591 @@
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: normal;
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+
+   /* Bắt đầu bản mobile (cỡ màn hình <= 767px) */
+   strong {
+     font-size: 1rem;
+   }
+   
+   img {
+     width: 100%;
+   }
+   
+   nav, p, span {
+     font-size: 1rem;
+   }
+   
+   .custom-toggler .navbar-toggler {
+     border-color: none;
+   }
+   
+   .custom-toggler .navbar-toggler-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+   }
+   
+   #menu-home {
+     color: rgb(255, 180, 27);
+   }
+   
+   .navbar-nav a {
+     color: rgb(172, 69, 10);
+   }
+   
+   #navbarTogglerMenu {
+     width: 20px;
+   }
+   
+   #menu-crevea {
+     color: DodgerBlue;
+     margin: auto;
+     position: absolute;
+     left: 37.5%;
+     top: 5.5px;
+     font-weight: bold;
+   }
+   
+   #menu-search-icon {
+     color: black;
+     position: absolute;
+     top: 20px;
+     right: 7.5%;
+   }
+   
+   .about-us-container, .news-container, .contact-container, .footer-row, .our-biz-container {
+     padding-left: 5%;
+     padding-right: 5%;
+   }
+   
+   .about-us-container {
+     padding-top: 40px;
+     padding-bottom: 80px;
+     position: relative;
+   }
+   
+   .about-us-head-line {
+     border-bottom: 4px solid DodgerBlue;
+     width: 37px;
+     position: absolute;
+     top: 52px;
+   }
+   
+   .about-us-head-text {
+     display: inline-block;
+     padding-left: 45px;
+   }
+   
+   .our-biz-container {
+     position: relative;
+   }
+   
+   #communication-img {
+     position: relative;
+   }
+   
+   #img-communication {
+     height: 350px;
+   }
+   
+   #communication-img strong {
+     font-size: 1.5rem;
+   }
+   
+   #our-biz-head-line {
+     border-bottom: 4px solid white;
+     width: 30px;
+     position: absolute;
+     top: 52px;
+     left: 80px;
+   }
+   
+   #our-biz {
+     position: absolute;
+     left: 120px;
+     top: 40px;
+     color: white;
+   }
+   
+   .img-mini {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+   }
+   
+   .handshake,
+   .book {
+     position: absolute;
+     left: 30px;
+   }
+   
+   .handshake {
+     top: 30%;
+   }
+   
+   .book {
+     top: 72%;
+   }
+   
+   .our-biz-communication {
+     position: absolute;
+     left: 80px;
+     color: white;
+     font-size: 10px;
+   }
+   
+   #communication {
+     top: 65px;
+   }
+   
+   #div-biz {
+     top: 200px;
+   }
+  
+   .news-container {
+     position: relative;
+     padding-top: 80px;
+   }
+   
+   #news-headline-container {
+     position: relative;
+   }
+   
+   .news-head-line {
+     border-bottom: 4px solid DodgerBlue;
+     width: 35px;
+     position: absolute;
+     top: 42px;
+   }
+   
+   .news-head-text {
+     display: inline-block;
+     padding-left: 45px;
+     position: absolute;
+     top: 30px;
+   }
+  
+   #latest-news-headline {
+     position: absolute;
+     left: 0px;
+     top: 40px;
+     margin-top: -10px;
+     width: 200px;
+   }
+   
+   .news-item {
+     padding-top: 40px;
+   }
+   
+   .news-image {
+     height: 200px;
+     margin-top: 5px;
+     border: 1px solid silver;
+   }
+   
+   .news-text {
+     width: 100%;
+     border: 1px solid silver;
+     margin-right: 0%;
+     padding: 5px 5px 10px 5px;
+     margin-top: 0;
+     margin-bottom: 10px;
+   }
+   
+   .news-text p {
+     margin-top: 7px;
+     margin-bottom: 0;
+     font-size: 12px;
+   }
+   
+   #new3-text-3-sub-text {
+     font-size: 10px;
+   }
+   
+   .contact-container {
+     position: relative;
+     margin-top: 80px;
+   }
+   
+   #contact-head-line {
+     border-bottom: 4px solid DodgerBlue;
+     width: 35px;
+     position: absolute;
+     top: 12px;
+   }
+   
+   #contact-head-text {
+     display: inline-block;
+     padding-left: 45px;
+   }
+   
+   .input-fields {
+     font-size: 10px;
+     width: 100%;
+     margin-top: 7.5px;
+     margin-right: -1.5%;
+     resize: none;
+   }
+   
+   #message {
+     width: 100%;
+     margin-top: 15px;
+     margin-right: 0%;
+   }
+  
+   #send-button-div {
+     width: 100%;
+     margin: auto;
+     position: relative;
+   }
+   
+   #contact-form {
+     position: relative;
+     margin-bottom: 50px;
+   }
+   
+   #send-button {
+     background-color: #ffc107;
+     color: white;
+     border-radius: 5%;
+     border: 2px solid #ffc107;
+     font-size: 13px;
+     height: 30px;
+     width: 36%;
+     position: absolute;
+     left: 32%;
+     top: 5px;
+   }
+   
+   #map-img {
+     padding: 20px 0 50px 0;
+   }
+  
+   footer {
+     background-color: black;
+     margin-top: 20px;
+   }
+   
+   .footer-row {
+     padding-top: 30px;
+     padding-bottom: 15px;
+   }
+   
+   .footer-info-container {
+     position: relative;
+     font-size: 15px;
+   }
+   
+   .footer-info-container strong {
+     font-size: 1.25rem;
+   }
+   
+   .footer-info-container span {
+     font-weight: bold;
+   }
+   
+   .footer-info-container p {
+     margin-top: 10px;
+     margin-bottom: 0;
+     position: relative;
+   }
+   
+   .footer-info-container .footer-crevea,
+   .footer-category,
+   .footer-language,
+   .footer-get-our-news {
+     float: left;
+     color: #D9D9D9;
+     padding-top: 10px;
+   }
+   
+   .footer-crevea p {
+     font-size: 15px;
+   }
+   
+   .list {
+     padding-left: 0px;
+     padding-top: 10px;
+     list-style: none;
+   }
+   
+   .li-category {
+     list-style-type: none;
+   }
+   
+   .li-category a {
+     color: #D9D9D9;
+     text-decoration: none;
+   }
+   
+   #our-news {
+     margin-right: 0;
+   }
+   
+   #footer-input-email {
+     color: grey;
+     background: none;
+     border: none;
+     padding-top: 10px;
+   }
+   
+   .footer-get-our-new {
+     border-bottom: 1px solid silver;
+     position: relative;
+   }
+   
+   #footer-copy-rights {
+     border-top: 1px solid silver;
+     text-align: center;
+     color: #D9D9D9;
+     font-size: 10px;
+   }
+   
+   #copyright-line {
+     padding-top: 5px;
+     padding-bottom: 10px;
+   }
+   
+   #submit {
+     position: absolute;
+     right: 22px;
+     margin-top: 5px;
+     border-radius: 5%;
+     border: 1px solid silver;
+   }
+   
+   #input-email-container {
+     border-bottom: 1px solid silver;
+   }
+   /* Kết thúc bản mobile */
+   
+   /* Bắt đầu bản tablet (cỡ màn hình >=768px) */
+   @media (min-width: 768px) {
+     body {
+     padding: 30px 30px;
+    }
+   
+     strong {
+       font-size: 1.2rem;
+     }
+    
+     #menu-bar {
+       background-color: DodgerBlue;
+       height: 65px;
+       margin-top: -15px;
+     }
+   
+     #menu-crevea {
+       padding-left: 7.5%;
+       color: white;
+       font-size: 1.5rem;
+       position: absolute;
+       left: 0;
+       margin-top: 5px;
+     }
+   
+     #menu-search-icon,
+     .navbar-nav a {
+       color: #D9D9D9;
+     }
+   
+     #search {
+       padding-left: 15px;
+     }
+   
+     #menu-search-icon {
+       position: absolute;
+       top: 23px;
+       right: 2%;
+     }
+   
+     .about-us-container, .news-container, .contact-container, .footer-row {
+       padding-left: 7.5%;
+       padding-right: 7.5%;
+     }
+    
+     .about-us-container {
+       padding-top: 30px;
+       padding-bottom: 30px;
+     }
+
+     #about-us {
+       padding-top: 9px;
+     }
+   
+     .our-biz-container {
+       padding-left: 2.5%;
+       padding-right: 2.5%;
+     }
+   
+     #img-education {
+       margin-right: 0px;
+       width: 100%;
+     }
+   
+     #img-communication {
+       margin-left: 0px;
+       width: 100%;
+     }
+   
+     .our-biz-communication {
+       position: absolute;
+       left: 11.5%;
+     }
+   
+     #our-biz {
+       position: absolute;
+       left: 120px;
+     }
+   
+     .handshake,
+     .book {
+       position: absolute;
+       left: 4.5%;
+     }
+   
+     .handshake {
+       top: 80px;
+     }
+   
+     .book {
+       top: 225px;
+     }
+  
+     .news-container {
+       position: relative;
+     }
+   
+     .news-item {
+       padding-top: 10px;
+     }
+
+     #new3-text-3-sub-text {
+       font-size: 15px;
+     }
+    
+     .input-fields {
+       width: 100%;
+     }
+   
+     #message {
+       width: 100%;
+     }
+  
+     #send-button {
+       width: 40%;
+       left: 30%;
+     }
+   
+     footer {
+       width: 100%;
+     }
+   
+     #submit {
+       margin-right: 33px;
+     }
+
+     #footer-copy-rights {
+       margin-top: 10px;
+     }
+   }
+    /* Kết thúc bản tablet */
+   
+    /* Bản laptop */
+     @media(min-width: 992px) {
+       .about-us-container, .news-container, .contact-container {
+         padding-left: 20%;
+         padding-right: 20%;
+       }
+   
+       strong {
+         font-size: 1.5rem;
+       }
+
+       #menu-bar {
+         margin-top: -15px;
+       }
+   
+       #menu-crevea {
+         padding-left: 20%;
+       }
+   
+       #menu-search-icon {
+         position: relative;
+         top: 0px;
+       }
+
+       #about-us {
+         padding-top: 10px;
+       }
+      
+       .our-biz-container {
+         margin-top: 40px;
+       }
+   
+       #img-education {
+         width: 105%;
+       }
+   
+       #img-communication {
+         width: 100%;
+         height:100%;
+       }
+   
+       .handshake {
+         position: absolute;
+         top: 80px;
+         left: -10px;
+       }
+   
+       .book {
+         position: absolute;
+         top: 53%;
+         left: -10px;
+       }
+   
+       #our-biz-head-line {
+         position: absolute;
+         top: 50px;
+         left: 6%;
+       }
+   
+       #our-biz {
+         position: absolute;
+         top: 37px;
+         left: 75px;
+       }
+   
+       .our-biz-communication {
+         position: absolute;
+         left: 6%;
+         color: white;
+         font-size: 10px;
+       }
+   
+       #communication {
+         top: 65px;
+       }
+   
+       #div-biz {
+         top: 50%;
+       }
+
+       #new3-text-3-sub-text {
+         font-size: 15px;
+       }
+   
+       #send-button {
+         position: absolute;
+         width: 100px;
+         left: 35%;
+       }
+
+       #submit {
+         margin-right: 3.3%;
+         margin-top: 8px;
+       }
+      }
