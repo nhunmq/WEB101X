@@ -1,0 +1,320 @@
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: normal;
+}
+
+  * {
+    box-sizing: border-box;
+}
+
+/* Bắt đầu bản mobile <= 767px */
+   strong, nav, p, span {
+     font-size: 1rem;
+   }
+   
+   img {
+     width: 100%;
+   }
+        
+   .custom-toggler .navbar-toggler {
+     border-color: none;
+   }
+   
+   .custom-toggler .navbar-toggler-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+   }
+   
+   #menu-home, #website {
+     color: rgb(255, 180, 27);
+   }
+  
+   .navbar-nav a {
+     color: rgb(172, 69, 10);
+   }
+   
+   #navbarTogglerMenu {
+     width: 20px;
+   }
+   
+   #menu-crevea {
+    color: DodgerBlue;
+    margin: auto;
+    position: absolute;
+    left: 37.5%;
+    top: 5.5px;
+    font-weight: bold;
+  }
+   
+  #menu-search-icon {
+    color: black;
+    position: absolute;
+    top: 15px;
+    right: 7.5%;
+  }
+   
+   .our-biz-container, .footer-row {
+     padding-left: 5%;
+     padding-right: 5%;
+   }
+   
+   .our-biz-container {
+     padding-top: 40px;
+     padding-bottom: 40px;
+     position: relative;
+   }
+  
+   .our-biz-line {
+     border-bottom: 4px solid DodgerBlue;
+     width: 35px;
+     margin:auto;
+     margin-bottom: 40px;
+   }
+   
+   .our-biz-text {
+     font-size: 2rem;
+     font-weight: bold;
+     text-align: center;
+   }
+   
+   .our-biz-goal {
+     text-align: justify;
+   }
+   
+   #education-img {
+     width: 60%;
+   }
+   
+   #education-text {
+     margin-top: -15px;
+   }
+   
+   .business {
+     padding-left: 5%;
+     width: 50%;
+     margin-top: 15px;
+   }
+   
+   #biz-image {
+     padding-top: 30px;
+   }
+   
+   .business img {
+     width: 100%;
+   }
+   
+   footer {
+     background-color: black;
+     margin-top: 40px;
+   }
+   
+   .footer-row {
+     padding-top: 30px;
+     padding-bottom: 15px;
+   }
+   
+   .footer-info-container {
+     position: relative;
+     font-size: 15px;
+   }
+   
+   .footer-info-container strong {
+     font-size: 1.25rem;
+   }
+   
+   .footer-info-container span {
+     font-weight: bold;
+   }
+   
+   .footer-info-container p {
+     margin-top: 10px;
+     margin-bottom: 0;
+     position: relative;
+   }
+   
+   .footer-info-container .footer-crevea,
+   .footer-category,
+   .footer-language,
+   .footer-get-our-news {
+     float: left;
+     color: #D9D9D9;
+     padding-top: 10px;
+   }
+   
+   .footer-crevea p {
+     font-size: 15px;
+   }
+   
+   .list {
+     padding-left: 0px;
+     padding-top: 10px;
+     list-style: none;
+   }
+   
+   .li-category a {
+     color: #D9D9D9;
+     text-decoration: none;
+   }
+   
+   #our-news {
+     margin-right: 0;
+   }
+   
+   #footer-input-email {
+     color: grey;
+     background: none;
+     border: none;
+     padding-top: 10px;
+   }
+   
+   .footer-get-our-new {
+     border-bottom: 1px solid silver;
+     position: relative;
+   }
+   
+   #footer-copy-rights {
+     border-top: 1px solid silver;
+     text-align: center;
+     color: #D9D9D9;
+     font-size: 10px;
+   }
+   
+   #copyright-line {
+     padding-top: 5px;
+     padding-bottom: 10px;
+   }
+   
+   #submit {
+     position: absolute;
+     right: 23px;
+     margin-top: 5px;
+     border-radius: 5%;
+     border: 1px solid silver;
+   }
+   
+   #input-email-container {
+     border-bottom: 1px solid silver;
+   }
+   /* Kết thúc bản mobile */
+   
+   /* Bắt đầu bản tablet (cỡ màn hình >=768px) */
+   @media (min-width: 768px) {
+     body {
+     padding: 30px 30px;
+     }
+   
+     strong {
+       font-size: 1rem;
+     }
+   
+     #menu-bar {
+       background-color: DodgerBlue;
+       height: 65px;
+       margin-top: -15px;
+     }
+   
+     #menu-crevea {
+      padding-left: 7.5%;
+      color: white;
+      font-size: 1.5rem;
+      position: absolute;
+      left: 0;
+      margin-top: 5px;
+    }
+   
+     #menu-search-icon,
+     .navbar-nav a {
+       color: #D9D9D9;
+     }
+   
+     #search {
+       padding-left: 10px;
+     }
+   
+     #menu-search-icon {
+       position: absolute;
+       top: 22px;
+       right: 5.5%;
+     }
+   
+     .our-biz-container {
+       padding-top: 30px;
+       padding-bottom: 30px;
+     }
+   
+     .education {
+       padding-right: 10%
+     }
+   
+     #education-text {
+       padding-top: 60px;
+     }
+   
+     #education-text {
+       margin-top: -80px;
+     }
+   
+     .our-biz-container, .footer-row {
+       padding-left: 5%;
+       padding-right: 5%;
+     }
+
+     #submit {
+       margin-right: 16px;
+     }
+   
+     #footer-copy-rights {
+       margin-top: 10px;
+     }
+   }
+    /* Kết thúc bản tablet */
+   
+     /* Bắt đầu bản laptop */
+     @media(min-width: 992px) {
+       .our-biz-container {
+         padding-left: 20%;
+         padding-right: 20%;
+       }
+   
+       strong {
+         font-size: 1.5rem;
+       }
+
+       #menu-bar {
+        margin-top: -15px;
+      }
+   
+       #menu-crevea {
+         padding-left: 20%;
+         top: 10px;
+       }
+   
+       #menu-search-icon {
+         position: relative;
+         top: 0px;
+       }
+   
+       #education-img {
+         padding-right: 40%;
+       }
+   
+       #education-text {
+         padding-right: 0%;
+         margin-top: -70px;
+         text-align: justify;
+       }
+
+       .business {
+         padding-left: 20%;
+         text-align: justify;
+       }
+   
+       .business img {
+         width: 60%;
+       }
+
+       #submit {
+        margin-right: 3.3%;
+        padding-top: 4px;
+      }
+     }
+   
